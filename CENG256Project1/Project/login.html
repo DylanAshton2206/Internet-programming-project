@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+    <script src="validation.js"></script>
+   <body>
+    <header>
+      <h1>Talk Shop Tuning</h1><hr>
+      <nav>
+        <ul>
+          <li><a href="autoshop.html">Home</a></li>
+          <li><a href="autoshopservice.html">Services</a></li>
+          <li><a href="login.html">Log In</a></li>
+		   <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </nav><hr>
+    </header>
+  </head>
+  <body><center><hr>
+    <h1>Login Page</h1>
+    <form name="loginForm" action="">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+	  <label class="error" for="username" id="Name_error">Only Characters are allowed in this space.</label><br><br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+	  <label class="error" for="password" id="P_error">The password must be at least 8 characters long and contain at least one letter, number and special character (either an exclamation mark(!) or a dollar sign($)).</label><br><br>
+      
+      <input type="submit" value="Login"><hr>
+    </form>
+	</center>
+ <footer>
+      <p>Talk Shop Tuning CENG256 &copy; 2023</p>
+    </footer>
+  </body>
+</html>
